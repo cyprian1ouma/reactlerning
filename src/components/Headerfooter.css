@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px;
+    background-color: white;  
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    padding: 12px 30px;
+    background-color: #1f9d55; 
+    border-radius: 15px;
+}
+
+.navbar ul li {
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    padding: 10px 18px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+
+.navbar ul li:hover {
+    background-color: black;
+    color: #1f9d55;
+}
+
+
+.navbar ul li:active {
+    transform: scale(0.95);
+}
+
+.welcome{
+    text-align: center;
+    margin-top: 50px 20px;
+    padding: 20px;
+    font-size: 24px;
+    color: #333;
+}
