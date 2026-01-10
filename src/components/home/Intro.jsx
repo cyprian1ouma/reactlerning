@@ -1,6 +1,7 @@
 
  import './home.css';
  import ChooseUs from './ChooseUs';
+ import Needus from '../needus/Needus';
  function Intro() {
   return (
     <>  
@@ -33,6 +34,8 @@
 
         {/* choose us component */}
         <ChooseUs />
+        {/* need us component */}
+        <Needus />
 
 
     </>
